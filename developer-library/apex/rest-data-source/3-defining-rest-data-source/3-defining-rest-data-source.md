@@ -81,7 +81,7 @@ Given the URL Endpoint used above, the **Create REST Data Source** operation det
     ![](images/add-operation.png " ")
 
 3. In the REST Source Operation page, enter the following.
-    - **URL Pattern:** enter **:empno**
+    - **URL Pattern:** enter **:empno** (including the leading colon!)
     - **HTTP Method:** select **GET**
     - **Database Operation:** select **Fetch single row**
 
@@ -92,7 +92,7 @@ Given the URL Endpoint used above, the **Create REST Data Source** operation det
 4. On REST EMP Source page, click **Add Operation**.
 
     In the REST Source Operation page, enter the following.
-    - **URL Pattern:** enter **:empno**
+    - **URL Pattern:** enter **:empno** (including the leading colon!)
     - **HTTP Method:** select **PUT**
     - **Database Operation:** select **Update row**
 
@@ -101,7 +101,7 @@ Given the URL Endpoint used above, the **Create REST Data Source** operation det
 5. On REST EMP Source page, click **Add Operation**.
 
     In the REST Source Operation page, enter the following.
-     - **URL Pattern:** enter **:empno**
+     - **URL Pattern:** enter **:empno** (including the leading colon!)
      - **HTTP Method:** select **DELETE**
      - **Database Operation:** select **Delete row**
 

@@ -64,7 +64,7 @@ To work with the application code, you need to make a clone from the GitHub repo
 
     ```bash
     <copy>
-    git clone https://github.com/oracle/microservices-datadriven.git;
+    git clone -b 22.2.2 --single-branch https://github.com/oracle/microservices-datadriven.git
     cp -r ./microservices-datadriven/workshops/oracleAQ $HOME;     
     rm -r -f microservices-datadriven; 
     cd oracleAQ;
@@ -108,5 +108,5 @@ Once the setup has been completed you are ready to **proceed to the next lab.**
 ## Acknowledgements
 
 - **Author** - Mayank Tayal, Developer Advocate
-- **Contributors** - Paul Parkinson, Developer Evangelist; Paulo Simoes, Developer Evangelist;  Richard Exley, Maximum Availability Architecture; Sanjay Goil, VP
+- **Contributors** - Sanjay Goil, VP Microservices and Oracle Database; Paul Parkinson, Developer Evangelist; Paulo Simoes, Developer Evangelist; Richard Exley, Maximum Availability Architecture; Shivani Karnewar, Senior Member Technical Staff
 - **Last Updated By/Date** - Mayank Tayal, February 2022

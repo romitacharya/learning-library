@@ -121,8 +121,7 @@ From the Home Menu click on Storage and then click on Buckets.
    ![Create Storage Bucket](./images/create_bucket.png " ")
 
    Next bucket, click on Create Bucket, Bucket Name, dataflow-logs and use the rest of the defaults and click Create.
-    And one more Create Bucket, Bucket Name, moviestream-bucket and again use the defaults and click Create.
-
+    
    ![Create Storage Bucket](./images/create_bucket2.png " ")
 
 The dataflow buckets are for the processing of the data and logs and the moviestream-bucket data will allow you keep copies of the data for loading and processing.

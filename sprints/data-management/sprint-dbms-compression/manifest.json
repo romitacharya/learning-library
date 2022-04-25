@@ -3,7 +3,7 @@
     "help": "livelabs-help-db_us@oracle.com",
     "tutorials": [
         {
-            "title": "How do I get table compression ratio?",
+            "title": "How do I see the current table compression ratio?",
             "description": "",
             "filename": "sprint-dbms-compression.md"
         },

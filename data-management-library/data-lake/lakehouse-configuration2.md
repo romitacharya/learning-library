@@ -108,7 +108,7 @@ In this step, we will perform some simple data loading tasks, to load in CSV fil
 
     ![Click Data Load](./images/selectlanding.png " ")
 
-6. From the MOVIESTREAMLANDING location, drag the **customer_contact**, **customer_extension**, and **customer_segment** folders over to the right hand pane and click **OK** to load all objects into one table for each of these folders.
+6. From the MOVIESTREAMLANDING location, drag the **customer*\_contact**, **customer*\_extension**, and **customer*\_segment** folders over to the right hand pane and click **OK** to load all objects into one table for each of these folders.
 
 7. Drag the **genre** and **movie** folders over to the right hand pane and click **OK**.
 
@@ -124,7 +124,7 @@ In this step, we will perform some simple data loading tasks, to load in CSV fil
 
     ![Check the job is completed](./images/loadcompleted2.png " ")
 
-11. From the CUSTOMERSALES location, drag all 4 of the folders over to the right hand pane.
+11. From the CUSTOMERSALES location, drag the json file EXPORT_STREAM_2020_UPDATED_COLLECTION over to the right hand pane. We will load the sales data later but this file will be used for the Data Flow Application.
 
     ![CustomerSales load task](./images/customersales3.png " ")
 

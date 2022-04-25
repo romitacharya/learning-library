@@ -45,7 +45,9 @@ Transactional Event Queues(TEQ) samples to create queues using different payload
 
     - Enqueue for multi-Consumer TEQ with Payload as Object Type using PL/SQL.
 
-2. Execute the following sequence of commands into cloud shell
+    - Enqueue for multi-Consumer TEQ with Payload as JSON Type using PL/SQL.
+
+1. Execute the following sequence of commands into cloud shell
 
     ```bash
     <copy>cd $ORACLEAQ_HOME; source enqueueTEQ.sh;
@@ -61,6 +63,8 @@ Transactional Event Queues(TEQ) samples to create queues using different payload
     - Enqueue for multi-consumer TEQ with Payload as RAW using PL/SQL.
 
     - Enqueue for multi-Consumer TEQ with Payload as Object Type using PL/SQL.
+
+    - Enqueue for multi-Consumer TEQ with Payload as JSON Type using PL/SQL.
 
 2. Execute the following sequence of commands into cloud shell
 
@@ -101,4 +105,5 @@ Transactional Event Queues(TEQ) samples to create queues using different payload
 ## Acknowledgements
 
 - **Author** - Mayank Tayal, Developer Advocate
+- **Contributors** - Sanjay Goil, VP Microservices and Oracle Database; Paul Parkinson, Developer Evangelist; Paulo Simoes, Developer Evangelist; Richard Exley, Maximum Availability Architecture; Shivani Karnewar, Senior Member Technical Staff
 - **Last Updated By/Date** - Mayank Tayal, February 2022

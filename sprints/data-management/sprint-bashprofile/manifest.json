@@ -3,7 +3,7 @@
     "help": "livelabs-help-db_us@oracle.com",
     "tutorials": [
         {
-            "title": "How do I set bash profile in Oracle Linux?",
+            "title": "What are essential environment variables that I need to specify in .bash_profile?",
             "description": "",
             "filename": "sprint-bashprofile.md"
         },

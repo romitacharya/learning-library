@@ -1,15 +1,22 @@
-# How do I set bash profile in Oracle Linux?
+# What are essential environment variables that I need to specify in .bash_profile?
 Duration: 2 minutes
 
 ## Edit the .bash_profile file
 
-1. In Oracle Enterprise Linux, the .bash_profile file is located in the users' home directory. The below example shows how you can set environment variables for your database installation. please note some of the variable values might vary according to your database installation
+1. In Oracle Enterprise Linux, the .bash_profile file is located in the users' home directory. 
+
+      Open the file in edit mode
 
       ```
       <copy> 
       vi ~/.bash_profile
-      # .bash_profile
+      </copy>
+      ```
 
+      Define the essential variables that are required in the .bash_profile file. The below example shows how you can set environment variables for your database installation. please note some of the variable values might vary according to your database installation
+
+      ```
+      <copy>   
       # Get the aliases and functions
       if [ -f ~/.bashrc ]; then
         . ~/.bashrc
@@ -30,8 +37,7 @@ Duration: 2 minutes
       PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
       export PATH
-      . ~/.set-env.sh
-
+      . ~/.set-env.sh 
       </copy>
       ```
 
